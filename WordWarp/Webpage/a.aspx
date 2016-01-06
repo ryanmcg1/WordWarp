@@ -12,7 +12,7 @@
         User list:
         <asp:TextBox ID="txtOnlineUsers" runat="server"></asp:TextBox>
         <br />
-        Name On Report :
+        Name On witness statement
         <asp:TextBox ID="txtReportName" runat="server"></asp:TextBox>
         <br />
         <asp:Button ID="btnSubmit" runat="server" Text="Lookup" OnClick="btnSubmit_Click" />
