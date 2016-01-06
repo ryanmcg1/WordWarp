@@ -46,6 +46,7 @@
             this.txtOnlineUsers.Name = "txtOnlineUsers";
             this.txtOnlineUsers.Size = new System.Drawing.Size(231, 102);
             this.txtOnlineUsers.TabIndex = 0;
+            this.txtOnlineUsers.Text = "ryan | cat";
             // 
             // contextMenuStrip1
             // 

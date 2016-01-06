@@ -20,35 +20,38 @@ namespace WordWarp
         private void button1_Click(object sender, EventArgs e)
         {
             txtResult.Text = "";
-            string[] onlineUserList = txtOnlineUsers.Text.ToString().ToLower().Split('|');
-            char[] ReportName = txtReportName.Text.Replace("*", "").ToCharArray();
+            string[] onlineUserList = txtOnlineUsers.Text.Replace(" ", "").ToString().ToLower().Split('|');
+
+            int WitnessNameLength = txtReportName.Text.Length;
+            char[] WitnessNameSplit = txtReportName.Text.Replace("*", "").ToCharArray();
 
             foreach(string user in onlineUserList)
             {
                 int i = 0;
-                foreach(char letter in ReportName)
+                foreach(char letter in WitnessNameSplit)
                 {
                     if (user.Contains(letter))
                     {
                         i++;
                     }
                 }
-                if (i == ReportName.Length)
+                if(i == WitnessNameSplit.Length)
                 {
-
-                    if (txtResult.Text == "")
+                    if (user.Length == WitnessNameLength)
                     {
-                        txtResult.Text = user;
+                        if (txtResult.Text == "")
+                        {
+                            txtResult.Text = user;
+                        }
+                        else
+                        {
+                            txtResult.Text = txtResult.Text + "," + user;
+                        }
                     }
-                    else
-                    {
-                        txtResult.Text = txtResult.Text + "," + user;
-                    }                    
                 }
-                    
-               
-            }
 
+              
+            }
             if (txtResult.Text == "")
                 txtResult.Text = "Not found!";
         }
