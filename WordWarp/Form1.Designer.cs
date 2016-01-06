@@ -41,12 +41,11 @@
             // 
             // txtOnlineUsers
             // 
-            this.txtOnlineUsers.Location = new System.Drawing.Point(67, 25);
+            this.txtOnlineUsers.Location = new System.Drawing.Point(16, 25);
             this.txtOnlineUsers.Multiline = true;
             this.txtOnlineUsers.Name = "txtOnlineUsers";
             this.txtOnlineUsers.Size = new System.Drawing.Size(231, 102);
             this.txtOnlineUsers.TabIndex = 0;
-            this.txtOnlineUsers.Text = "ryan | cat";
             // 
             // contextMenuStrip1
             // 
@@ -55,7 +54,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 255);
+            this.button1.Location = new System.Drawing.Point(146, 168);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -65,7 +64,7 @@
             // 
             // txtReportName
             // 
-            this.txtReportName.Location = new System.Drawing.Point(121, 173);
+            this.txtReportName.Location = new System.Drawing.Point(16, 168);
             this.txtReportName.Name = "txtReportName";
             this.txtReportName.Size = new System.Drawing.Size(97, 20);
             this.txtReportName.TabIndex = 2;
@@ -73,7 +72,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(170, 9);
+            this.label1.Location = new System.Drawing.Point(13, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 4;
@@ -81,7 +80,8 @@
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(121, 342);
+            this.txtResult.Enabled = false;
+            this.txtResult.Location = new System.Drawing.Point(16, 248);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(100, 20);
             this.txtResult.TabIndex = 5;
@@ -89,16 +89,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(130, 157);
+            this.label2.Location = new System.Drawing.Point(13, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
+            this.label2.Size = new System.Drawing.Size(159, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Name from report";
+            this.label2.Text = "Name from report (can include *)";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(130, 326);
+            this.label3.Location = new System.Drawing.Point(13, 221);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 7;
