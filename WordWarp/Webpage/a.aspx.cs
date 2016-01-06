@@ -15,7 +15,7 @@ public partial class a : System.Web.UI.Page
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
         txtResult.Text = "";
-        string[] onlineUserList = txtOnlineUsers.Text.ToString().Split('|');
+        string[] onlineUserList = txtOnlineUsers.Text.ToString().ToLower().Split('|');
         char[] ReportName = txtReportName.Text.Replace("*", "").ToCharArray();
 
         foreach (string user in onlineUserList)

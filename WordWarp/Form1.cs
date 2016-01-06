@@ -20,7 +20,7 @@ namespace WordWarp
         private void button1_Click(object sender, EventArgs e)
         {
             txtResult.Text = "";
-            string[] onlineUserList = txtOnlineUsers.Text.ToString().Split('|');
+            string[] onlineUserList = txtOnlineUsers.Text.ToString().ToLower().Split('|');
             char[] ReportName = txtReportName.Text.Replace("*", "").ToCharArray();
 
             foreach(string user in onlineUserList)

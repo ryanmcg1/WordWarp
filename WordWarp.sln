@@ -5,12 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWarp", "WordWarp\WordWarp.csproj", "{81B94090-5FE3-4E0D-BA88-838C8CD58438}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28D32296-1EB7-4277-86D3-E2EF04B1286F}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Dropbox\PortfolioSite\CMS\a.aspx = ..\..\Dropbox\PortfolioSite\CMS\a.aspx
-		..\..\Dropbox\PortfolioSite\CMS\a.aspx.cs = ..\..\Dropbox\PortfolioSite\CMS\a.aspx.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
